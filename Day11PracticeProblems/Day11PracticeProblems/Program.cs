@@ -10,11 +10,18 @@ namespace Day11PracticeProblems
     {
         static void Main(string[] args)
         {
-            PatternClass1 pat = new PatternClass1();
-            Console.WriteLine("Enter The Number Of Rows You Want");
-            int input = Convert.ToInt32(Console.ReadLine());
-            pat.Pattren(input);
+            //PatternClass1 pat = new PatternClass1();
+            //Console.WriteLine("Enter The Number Of Rows You Want");
+            //int input = Convert.ToInt32(Console.ReadLine());
+            //pat.Pattren(input);
+            //Console.ReadLine();
+            
+            PatternClass2 pattern = new PatternClass2();
+            pattern.RectanglePattern();
             Console.ReadLine();
+            //StringReverse str = new StringReverse();
+            //str.Reverse();
+            //Console.ReadLine();
         }
     }
 }
