@@ -19,8 +19,10 @@ namespace Day11PracticeProblems
             //PatternClass2 pattern = new PatternClass2();
             //pattern.RectanglePattern();
             //Console.ReadLine();
-            StringReverse str = new StringReverse();
-            str.Reverse();
+            //StringReverse str = new StringReverse();
+            //str.Reverse();
+            SumOfDigits su = new SumOfDigits();
+            su.SumOfAllDigits();
             Console.ReadLine();
         }
     }
