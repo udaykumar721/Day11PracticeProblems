@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MatrixRowSum.cs" />
     <Compile Include="PatternClass1.cs" />
     <Compile Include="PatternClass2.cs" />
     <Compile Include="Program.cs" />
