@@ -15,13 +15,13 @@ namespace Day11PracticeProblems
             //int input = Convert.ToInt32(Console.ReadLine());
             //pat.Pattren(input);
             //Console.ReadLine();
-            
-            PatternClass2 pattern = new PatternClass2();
-            pattern.RectanglePattern();
-            Console.ReadLine();
-            //StringReverse str = new StringReverse();
-            //str.Reverse();
+
+            //PatternClass2 pattern = new PatternClass2();
+            //pattern.RectanglePattern();
             //Console.ReadLine();
+            StringReverse str = new StringReverse();
+            str.Reverse();
+            Console.ReadLine();
         }
     }
 }
